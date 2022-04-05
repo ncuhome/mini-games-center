@@ -1,6 +1,7 @@
 import Data from './api/data'
 import Piece from '../components/piece'
 
+
 const MainPage = () => {
   const element = Data.map((data: any) => {
     console.log(data)
