@@ -19,8 +19,18 @@ const Piece = (props: any) => {
                     style={{ borderRadius: '100px', marginRight: '16px' }}
                 />
                 <div>
-                    <div style={{ color: "white" }}>{props.name}</div>
-                    <div style={{ color: "white" }}>{props.src}</div>
+                    <div style={{
+                        color: "white",
+                        fontSize: "15px"
+                    }}>
+                        {props.name}
+                    </div>
+                    <div style={{
+                        color: "white",
+                        fontSize: "12px"
+                    }}>
+                        {props.src}
+                    </div>
                 </div>
             </div>
         </>
