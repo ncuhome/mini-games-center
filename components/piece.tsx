@@ -1,3 +1,5 @@
+import { generateFromString } from 'generate-avatar'
+
 const Piece = (props: any) => {
     const src = props.src
     return (
@@ -12,7 +14,7 @@ const Piece = (props: any) => {
             }}
                 onClick={() => window.location.href = src}>
                 <img
-                    src={props.image}
+                    src={`data:image/svg+xml;utf8,${generateFromString(props.name)}`}
                     alt={props.name}
                     width="40px"
                     height="40px"

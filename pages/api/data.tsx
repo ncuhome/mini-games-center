@@ -1,3 +1,4 @@
+
 const Data = [
     {
         "id": "1",
@@ -15,7 +16,7 @@ const Data = [
         "id": "3",
         "name": "蝶恋花",
         "src": "http://www.wesane.com/game/884/",
-        "image": "/Users/xiikii/mini_games/public/image/1.svg",
+        "image": "http://rongcloud-web.qiniudn.com/docs_demo_rongcloud_logo.png",
     }
 ]
 
