@@ -8,7 +8,7 @@ const Piece = (props: any) => {
                 padding: "12px",
                 margin: "12px",
                 borderRadius: "16px",
-                backgroundColor: "#F57C7C"
+                backgroundColor: "#EF6E6E"
             }}
                 onClick={() => window.location.href = src}>
                 <img

@@ -1,21 +1,21 @@
 const Data = [
     {
         "id": "1",
-        "name": "John Doe",
+        "name": "召唤神龙",
+        "src": "http://www.wesane.com/game/910/",
         "image": "http://rongcloud-web.qiniudn.com/docs_demo_rongcloud_logo.png",
-        "src": "https://google.com"
     },
     {
         "id": "2",
-        "name": "John Doe",
+        "name": "小鸭子过河",
+        "src": "http://www.wesane.com/game/883/",
         "image": "http://rongcloud-web.qiniudn.com/docs_demo_rongcloud_logo.png",
-        "src": "https://bing.com"
     },
     {
         "id": "3",
-        "name": "John Doe",
+        "name": "蝶恋花",
+        "src": "http://www.wesane.com/game/884/",
         "image": "/Users/xiikii/mini_games/public/image/1.svg",
-        "src": "https://bing.com"
     }
 ]
 
