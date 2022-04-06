@@ -6,7 +6,7 @@ import centericon from '../public/center_icon.svg'
 const Header = () => {
     return (
         <div>
-            <div style={{ marginTop: "36px" }}>
+            <div style={{ paddingTop: "64px" }}>
                 <Image src={centericon} alt="center_icon" width="80px" height="80px" />
             </div>
             <div
