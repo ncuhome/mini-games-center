@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@geist-ui/core": "^2.3.8",
-    "generate-avatar": "^1.4.10",
+    "boring-avatars": "^1.6.3",
     "next": "12.1.4",
     "react": "18.0.0",
     "react-dom": "18.0.0",

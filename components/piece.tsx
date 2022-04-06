@@ -1,4 +1,4 @@
-import { generateFromString } from 'generate-avatar'
+import Avatar from "boring-avatars";
 
 const Piece = (props: any) => {
     const src = props.src
@@ -14,13 +14,17 @@ const Piece = (props: any) => {
                 backgroundColor: "#EF6E6E"
             }}
                 onClick={() => window.location.href = src}>
-                <img
-                    src={`data:image/svg+xml;utf8,${generateFromString(props.name)}`}
-                    alt={props.name}
-                    width="40px"
-                    height="40px"
+                <div
                     style={{ borderRadius: '100px', marginRight: '16px' }}
-                />
+                >
+                    <Avatar
+                        size={40}
+                        name={(props.name)}
+                        variant="beam"
+                        colors={["#ADABFF", "#FFD234", "#F2F26F", "#FFF7BD", "#8DECC5"]}
+                    />
+                </div>
+
                 <div>
                     <div style={{
                         color: "white",
