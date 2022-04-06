@@ -2,7 +2,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## todo
 - [x] 整一个文案
-[?] 将所有游戏名称链接数据输入到`data.tsx` 
 - [ ] 升级埋点方式，获取更多数据
 - [ ] 用 mincu 改写一遍？
 - [ ] 用腾讯文档 Api 或类似方法，使可以直接更改游戏名称链接等数据
