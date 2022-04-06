@@ -4,6 +4,8 @@ import Footer from '../components/footer'
 import Piece from '../components/piece'
 
 const MainPage = () => {
+  const prefix = 'https://galactus.ncuos.com/?url='
+
   const element = Data.map((data: any) => {
     console.log(data)
     return (
@@ -11,7 +13,7 @@ const MainPage = () => {
         key={data.id}
         name={data.name}
         image={data.image}
-        src={data.src}
+        src={`${prefix}${data.src}`}
       />)
   }
   )
