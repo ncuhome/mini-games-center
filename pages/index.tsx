@@ -17,15 +17,17 @@ const MainPage = () => {
   )
 
   return (
-    <div style={{ backgroundColor: '#0F0F10', height: "100%" }}>
-      <div style={{
-        marginLeft: "26px",
-        marginRight: "26px",
-      }}>
-        <div>2333</div>
-        <Header />
-        {element}
-        <Footer />
+    <div className="container">
+      <div style={{ backgroundColor: '#0F0F10', height: "100%" }}>
+        <div style={{
+          marginLeft: "26px",
+          marginRight: "26px",
+        }}>
+          <div>2333</div>
+          <Header />
+          {element}
+          <Footer />
+        </div>
       </div>
     </div>
   )
