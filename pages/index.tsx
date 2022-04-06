@@ -5,7 +5,6 @@ import Piece from '../components/piece'
 
 const MainPage = () => {
   const prefix = 'https://galactus.ncuos.com/?url='
-
   const element = Data.map((data: any) => {
     console.log(data)
     return (

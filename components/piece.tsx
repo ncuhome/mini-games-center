@@ -1,7 +1,11 @@
 import Avatar from "boring-avatars";
 
 const Piece = (props: any) => {
+    const prefix = 'https://galactus.ncuos.com/?url='
     const src = props.src
+    const srcModified = ` ${props.src}`.replace('https://galactus.ncuos.com/?url=', '')
+
+    console.log(src)
     return (
         <>
             <div style={{
@@ -36,7 +40,7 @@ const Piece = (props: any) => {
                         color: "white",
                         fontSize: "12px"
                     }}>
-                        {props.src}
+                        {srcModified}
                     </div>
                 </div>
             </div>
