@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## todo
-- [ ] 整一个文案
+- [x] 整一个文案
 - [ ] 将所有游戏名称链接数据输入到`data.tsx` 
 - [ ] 用 mincu 改写一遍？
 - [ ] 用腾讯文档 Api 或类似方法，使可以直接更改游戏名称链接等数据
