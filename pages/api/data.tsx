@@ -56,55 +56,76 @@
 
 const Data = [
     {
-        "id": "12",
         "name": "围住小猫",
         "src": "https://ganlvtech.github.io/phaser-catch-the-cat//",
-    }, {
-        "id": "1",
-        "name": "召唤神龙",
-        "src": "http://www.wesane.com/game/910/",
-    }, {
-        "id": "2",
-        "name": "小鸭子过河",
-        "src": "http://www.wesane.com/game/883/",
     },
     {
-        "id": "3",
-        "name": "蝶恋花",
-        "src": "http://www.wesane.com/game/884/",
-    }, {
-        "id": "4",
-        "name": "打碎蔬菜",
-        "src": "http://www.wesane.com/game/892/",
-    }, {
-        "id": "5",
-        "name": "凿壁借光",
-        "src": "http://www.wesane.com/game/893/",
-    }, {
-        "id": "6",
-        "name": "插花瓣",
-        "src": "http://www.wesane.com/game/854/",
-    }, {
-        "id": "7",
-        "name": "女王登基",
-        "src": "http://www.wesane.com/game/874/",
-    }, {
-        "id": "8",
-        "name": "龟龟滑雪",
-        "src": "http://www.wesane.com/game/793/",
-    }, {
-        "id": "9",
-        "name": "抓螃蟹",
-        "src": "http://www.wesane.com/game/862/",
-    }, {
-        "id": "10",
-        "name": "水果炸弹",
-        "src": "http://www.wesane.com/game/897/",
-    }, {
-        "id": "11",
-        "name": "疯狂赛道",
-        "src": "http://www.wesane.com/game/869/",
+        "name": "Wordle",
+        "src": "https://wordle-play.com/",
     },
+    {
+        "name": "汉兜",
+        "src": "https://handle.antfu.me/",
+    },
+    {
+        "name": "小鱼找对象",
+        "src": "http://www.wesane.com/game/849/",
+    },
+    {
+        "name": "Nyan Cat Crazy",
+        "src": "https://aidn.jp/nyancrazy/",
+    },
+    {
+        "name": "Mikutap",
+        "src": "https://aidn.jp/mikutap/",
+    },
+
+    //  {
+    //     "id": "1",
+    //     "name": "召唤神龙",
+    //     "src": "http://www.wesane.com/game/910/",
+    // }, {
+    //     "id": "2",
+    //     "name": "小鸭子过河",
+    //     "src": "http://www.wesane.com/game/883/",
+    // },
+    // {
+    //     "id": "3",
+    //     "name": "蝶恋花",
+    //     "src": "http://www.wesane.com/game/884/",
+    // }, {
+    //     "id": "4",
+    //     "name": "打碎蔬菜",
+    //     "src": "http://www.wesane.com/game/892/",
+    // }, {
+    //     "id": "5",
+    //     "name": "凿壁借光",
+    //     "src": "http://www.wesane.com/game/893/",
+    // }, {
+    //     "id": "6",
+    //     "name": "插花瓣",
+    //     "src": "http://www.wesane.com/game/854/",
+    // }, {
+    //     "id": "7",
+    //     "name": "女王登基",
+    //     "src": "http://www.wesane.com/game/874/",
+    // }, {
+    //     "id": "8",
+    //     "name": "龟龟滑雪",
+    //     "src": "http://www.wesane.com/game/793/",
+    // }, {
+    //     "id": "9",
+    //     "name": "抓螃蟹",
+    //     "src": "http://www.wesane.com/game/862/",
+    // }, {
+    //     "id": "10",
+    //     "name": "水果炸弹",
+    //     "src": "http://www.wesane.com/game/897/",
+    // }, {
+    //     "id": "11",
+    //     "name": "疯狂赛道",
+    //     "src": "http://www.wesane.com/game/869/",
+    // },
 ]
 
 export default Data
