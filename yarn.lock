@@ -34,7 +34,7 @@
 
 "@geist-ui/core@^2.3.8":
   version "2.3.8"
-  resolved "https://registry.npmjs.org/@geist-ui/core/-/core-2.3.8.tgz#bc2bae61b8d478d61a045d776455ba5a3dc7472e"
+  resolved "https://registry.npmjs.org/@geist-ui/core/-/core-2.3.8.tgz"
   integrity sha512-OKwGgTA4+fBM41eQbqDoUj4XBycZbYH7Ynrn6LPO5yKX7zeWPu/R7HN3vB4/oHt34VTDQI5sDNb1SirHvNyB5w==
   dependencies:
     "@babel/runtime" "^7.16.7"
@@ -163,7 +163,7 @@
 
 "@types/node@^13.13.1":
   version "13.13.52"
-  resolved "https://registry.npmjs.org/@types/node/-/node-13.13.52.tgz#03c13be70b9031baaed79481c0c0cfb0045e53f7"
+  resolved "https://registry.npmjs.org/@types/node/-/node-13.13.52.tgz"
   integrity sha512-s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==
 
 "@types/prop-types@*":
@@ -811,7 +811,7 @@ functional-red-black-tree@^1.0.1:
 
 generate-avatar@^1.4.10:
   version "1.4.10"
-  resolved "https://registry.npmjs.org/generate-avatar/-/generate-avatar-1.4.10.tgz#2d06b112419a835da7bf6cdc4fe6200b69b5c2de"
+  resolved "https://registry.npmjs.org/generate-avatar/-/generate-avatar-1.4.10.tgz"
   integrity sha512-HlVz3ZXTqz7F0sb3OoW8591SojdVtyyuqX6kCi/AnmEXH16MLmPRiChv2680E9WF39zl5nlHMrgZxlmqnTrzkQ==
   dependencies:
     "@types/node" "^13.13.1"
@@ -1400,6 +1400,11 @@ react-dom@18.0.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.21.0"
+
+react-ga@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.npmjs.org/react-ga/-/react-ga-3.3.0.tgz#c91f407198adcb3b49e2bc5c12b3fe460039b3ca"
+  integrity sha512-o8RScHj6Lb8cwy3GMrVH6NJvL+y0zpJvKtc0+wmH7Bt23rszJmnqEQxRbyrqUzk9DTJIHoP42bfO5rswC9SWBQ==
 
 react-is@^16.13.1:
   version "16.13.1"
