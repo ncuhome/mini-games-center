@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div>
             <div style={{ marginTop: "36px" }}>
-                <Image src={centericon} alt="center_icon" width="64px" height="64px" />
+                <Image src={centericon} alt="center_icon" width="80px" height="80px" />
             </div>
             <div
                 style={{
@@ -15,7 +15,7 @@ const Header = () => {
                     fontSize: "42px",
                     fontWeight: "800",
                     lineHeight: "56px",
-                    marginTop: "4px",
+                    marginTop: "0px",
                 }}>小游戏<br />中心</div>
             <div style={{ fontSize: "13px", color: "#919190", marginTop: "8px" }}>
                 汇聚有趣好玩手游的小游戏分享社区，足不出户与全校玩家共同交流并体验各类小游戏。<br />
