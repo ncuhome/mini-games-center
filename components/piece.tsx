@@ -8,7 +8,8 @@ const Piece = (props: any) => {
                 display: 'flex',
                 alignItems: 'center',
                 padding: "12px",
-                margin: "12px",
+                marginTop: "12px",
+                marginBottom: "12px",
                 borderRadius: "16px",
                 backgroundColor: "#EF6E6E"
             }}

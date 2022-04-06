@@ -1,4 +1,5 @@
 import Data from './api/data'
+import Header from '../components/header'
 import Piece from '../components/piece'
 
 const MainPage = () => {
@@ -16,8 +17,12 @@ const MainPage = () => {
 
   return (
     <div style={{ backgroundColor: '#0F0F10', height: "100vh" }}>
-      <div style={{ margin: "22px" }}>
+      <div style={{
+        marginLeft: "26px",
+        marginRight: "26px"
+      }}>
         <div>2333</div>
+        <Header />
         {element}
       </div>
     </div>
