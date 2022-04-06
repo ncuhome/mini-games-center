@@ -1,21 +1,10 @@
-// 🟡召唤神龙http://www.wesane.com/game/910/
-// 🟡小鸭子过河http://www.wesane.com/game/883/
-// 🟡蝶恋花http://www.wesane.com/game/884/
-// 🟡打碎蔬菜http://www.wesane.com/game/892/
-// 🟡凿壁借光http://www.wesane.com/game/893/
-// 🟡插花瓣http://www.wesane.com/game/854/
 // 🟡山楂串http://www.wesane.com/game/848/
-// 🟡女王登基http://www.wesane.com/game/874/
-// 🟡龟龟滑雪http://www.wesane.com/game/793/
 // 🟡母鸡下蛋http://www.wesane.com/game/705/
 // 🟡合成大南瓜http://www.wesane.com/game/795/
 // 🟡解救公主http://www.wesane.com/game/782/
 // 🟡蛇棋http://www.wesane.com/game/791/
-// 🟡疯狂赛道http://www.wesane.com/game/869/
 // 🟡大鱼http://www.wesane.com/game/811/
 // 🟡花朵大作战http://www.wesane.com/game/739/
-// 🟡水果炸弹http://www.wesane.com/game/897/
-// 🟡抓螃蟹http://www.wesane.com/game/862/
 // 🟡旅行气球http://www.wesane.com/game/827/
 // 🟡小鱼找对象http://www.wesane.com/game/849/
 // 🟡刮腿毛 http://www.wesane.com/game/264/
@@ -70,8 +59,7 @@ const Data = [
         "id": "1",
         "name": "召唤神龙",
         "src": "http://www.wesane.com/game/910/",
-    },
-    {
+    }, {
         "id": "2",
         "name": "小鸭子过河",
         "src": "http://www.wesane.com/game/883/",
@@ -80,8 +68,39 @@ const Data = [
         "id": "3",
         "name": "蝶恋花",
         "src": "http://www.wesane.com/game/884/",
+    }, {
+        "id": "4",
+        "name": "打碎蔬菜",
+        "src": "http://www.wesane.com/game/892/",
+    }, {
+        "id": "5",
+        "name": "凿壁借光",
+        "src": "http://www.wesane.com/game/893/",
+    }, {
+        "id": "6",
+        "name": "插花瓣",
+        "src": "http://www.wesane.com/game/854/",
+    }, {
+        "id": "7",
+        "name": "女王登基",
+        "src": "http://www.wesane.com/game/874/",
+    }, {
+        "id": "8",
+        "name": "龟龟滑雪",
+        "src": "http://www.wesane.com/game/793/",
+    }, {
+        "id": "9",
+        "name": "抓螃蟹",
+        "src": "http://www.wesane.com/game/862/",
+    }, {
+        "id": "10",
+        "name": "水果炸弹",
+        "src": "http://www.wesane.com/game/897/",
+    }, {
+        "id": "11",
+        "name": "疯狂赛道",
+        "src": "http://www.wesane.com/game/869/",
     },
-
 ]
 
 export default Data
