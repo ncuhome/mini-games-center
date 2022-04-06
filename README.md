@@ -3,8 +3,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## todo
 - [x] 整一个文案
 - [ ] 升级埋点方式，获取更多数据
-- [ ] 用 mincu 改写一遍？
 - [ ] 用腾讯文档 Api 或类似方法，使可以直接更改游戏名称链接等数据
+- [ ] 设置反馈功能，允许用户点击喜欢/不喜欢
+
+## May todo
+- [ ] 设置“新小游戏“板块
+- [ ] 设置”热门小游戏“板块
+- [ ] 用 mincu 改写一遍？
+
 
 
 ## Getting Started
