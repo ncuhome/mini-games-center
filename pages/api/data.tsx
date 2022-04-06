@@ -56,6 +56,10 @@
 
 const Data = [
     {
+        "id": "12",
+        "name": "围住小猫",
+        "src": "https://ganlvtech.github.io/phaser-catch-the-cat//",
+    }, {
         "id": "1",
         "name": "召唤神龙",
         "src": "http://www.wesane.com/game/910/",
