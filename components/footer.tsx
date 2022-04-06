@@ -4,7 +4,7 @@ const Footer = () => {
             paddingTop: " 24px",
             paddingBottom: "40px",
             textAlign: "center",
-            color: "#888888",
+            color: "#919190",
             fontSize: "13px"
         }}>
             @ 2022 NCUHOME <br />
