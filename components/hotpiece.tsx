@@ -7,12 +7,9 @@ const HotPiece = (props: any) => {
     const src = props.src
     const srcModified = ` ${src}`.replace(`${prefix}`, '')
 
-    const hotevent = props.hotevent
-
     var reg = RegExp(/vercel/);
 
     const renderHot = () => {
-
         return (
             <div style={{
                 alignItems: "center",
@@ -22,6 +19,7 @@ const HotPiece = (props: any) => {
                 <Image src={hot} alt="hot" height='20px' width='20px' />
             </div>)
     }
+
     return (
         <>
             <div style={{
