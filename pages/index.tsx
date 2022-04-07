@@ -22,7 +22,7 @@ const MainPage = () => {
     }
     else {
       return (
-        <HotPiece
+        <Piece
           key={hash(data.name)}
           name={data.name}
           image={data.image}
