@@ -9,6 +9,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## May todo
 - [ ] 设置“新小游戏“板块
 - [ ] 设置”热门小游戏“板块
+  - [x] 热门 🏷 已加入  
 - [ ] 用 mincu 改写一遍？
 
 
