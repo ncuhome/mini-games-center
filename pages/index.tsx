@@ -2,6 +2,7 @@ import Data from './api/data'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import Piece from '../components/piece'
+import HotPiece from '../components/hotpiece'
 
 var hash = require('object-hash');
 
@@ -10,13 +11,25 @@ const MainPage = () => {
 
   const element = Data.map((data: any) => {
     console.log(data)
-    return (
-      <Piece
-        key={hash(data.name)}
-        name={data.name}
-        image={data.image}
-        src={`${prefix}${data.src}`}
-      />)
+    if (data.hotevent == true) {
+      return (
+        <HotPiece
+          key={hash(data.name)}
+          name={data.name}
+          image={data.image}
+          src={`${prefix}${data.src}`}
+        />)
+    }
+    else {
+      return (
+        <HotPiece
+          key={hash(data.name)}
+          name={data.name}
+          image={data.image}
+          src={`${prefix}${data.src}`}
+        />
+      )
+    }
   }
   )
 
