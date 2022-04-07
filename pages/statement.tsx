@@ -1,7 +1,17 @@
+import { useRouter } from "next/router"
+import { Button } from "@geist-ui/core"
+
 const Statement = () => {
+    const router = useRouter()
+
     return (
         <div>
-            2333
+            <Button onClick={() => router.back()}>
+                back
+            </Button>
+            <div>
+                2333
+            </div>
         </div>
     )
 }
