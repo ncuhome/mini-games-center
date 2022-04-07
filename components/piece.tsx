@@ -3,9 +3,13 @@ import Avatar from "boring-avatars";
 const Piece = (props: any) => {
     const prefix = 'https://galactus.ncuos.com/?url='
     const src = props.src
-    const srcModified = ` ${props.src}`.replace('https://galactus.ncuos.com/?url=', '')
+    const srcModified = ` ${src}`.replace(`${prefix}`, '')
 
-    console.log(src)
+    var str = srcModified
+    var reg = RegExp(/vercel/);
+    reg.test(str) ? console.log('true') : console.log('false')
+
+    console.log(srcModified)
     return (
         <>
             <div style={{
@@ -19,7 +23,7 @@ const Piece = (props: any) => {
             }}
                 onClick={() => window.location.href = src}>
                 <div
-                    style={{ borderRadius: '100px', marginRight: '16px' }}
+                    style={{ borderRadius: '100px', marginRight: '16px', marginTop: '6px' }}
                 >
                     <Avatar
                         size={40}
@@ -40,7 +44,7 @@ const Piece = (props: any) => {
                         color: "white",
                         fontSize: "12px"
                     }}>
-                        {srcModified}
+                        {reg.test(srcModified) == true ? "入选近期热门飙升榜" : srcModified}
                     </div>
                 </div>
             </div>

@@ -58,7 +58,7 @@ const HotPiece = (props: any) => {
                         color: "white",
                         fontSize: "12px"
                     }}>
-                        {reg.test(srcModified) == true ? "近期热门飙升榜" : srcModified}
+                        {reg.test(srcModified) == true ? "入选近期热门飙升榜" : srcModified}
                     </div>
                 </div>
             </div>
