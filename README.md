@@ -42,5 +42,5 @@ To learn more about Next.js, take a look at the following resources:
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
-Easily access following links below:
+Easily access following links below:<br>
 https://mini-games-pink.vercel.app/
