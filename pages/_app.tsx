@@ -1,8 +1,6 @@
 import { useEffect } from 'react'
-import { useRouter } from 'next/router'
 import * as ReactGA from 'react-ga'
 
-import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import { GeistProvider, CssBaseline } from '@geist-ui/core'
 
