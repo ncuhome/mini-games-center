@@ -56,7 +56,7 @@ const Data =
     [
         {
             "name": "围住小猫",
-            "hotevent": true,
+            "hotevent": false,
             "src": "https://ganlvtech.github.io/phaser-catch-the-cat//",
         },
         // {
@@ -71,7 +71,7 @@ const Data =
         // },
         {
             "name": "小鱼找对象",
-            "hotevent": true,
+            "hotevent": false,
             "src": "https://fishes-matching.vercel.app/?header=false",
         },
         // {
