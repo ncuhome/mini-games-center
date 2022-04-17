@@ -1,25 +1,30 @@
-import { Button } from "@geist-ui/core"
-import Image from "next/image"
-import addicon from '../public/addicon.svg'
-import centericon from '../public/center_icon.svg'
+import { Card, Grid, Text } from "@geist-ui/core"
 
 const Header = () => {
     return (
         <div>
-            <div style={{ paddingTop: "64px" }}>
+            {/* <div style={{ paddingTop: "64px" }}>
                 <Image src={centericon} alt="center_icon" width="80px" height="80px" />
-            </div>
-            <div
+            </div> */}
+            {/* <div
                 style={{
                     color: "white",
                     fontSize: "42px",
                     fontWeight: "800",
                     lineHeight: "56px",
                     marginTop: "0px",
-                }}>小游戏<br />中心</div>
-            <div style={{ fontSize: "13px", color: "#919190", marginTop: "8px" }}>
-                汇聚有趣好玩手游的小游戏分享社区，足不出户与全校玩家共同交流并体验各类小游戏。<br />
-                休闲、解压、益智....丰富类别等你体验，每一款推荐的游戏都由我们为你精选而出，只为拯救你的无聊与烦闷！
+                }}>小游戏<br />中心</div> */}
+            <div style={{ fontSize: "13px", color: "#919190", paddingTop: "40px" }}>
+                <div style={{
+                    backgroundColor: "#2E3132",
+                    color: "white",
+                    padding: "16px",
+                    borderRadius: "20px",
+                }}>
+                    汇聚有趣好玩手游的小游戏分享社区，足不出户与全校玩家共同交流并体验各类小游戏。<br />
+                    休闲、解压、益智....丰富类别等你体验，每一款推荐的游戏都由我们为你精选而出，只为拯救你的无聊与烦闷🎉🎉🎉<br />
+                </div>
+
             </div>
 
             <div style={{ marginTop: "24px", fontSize: "12px", color: "#71738A" }}>
