@@ -55,15 +55,24 @@
 const Data =
     [
         {
+            "name": "Wordle",
+            "hotevent": true,
+            "src": "https://wordle-play.com/",
+            "image": "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fn.sinaimg.cn%2Fsinakd20220319ac%2F646%2Fw960h486%2F20220319%2Fc24f-9ccfe3cc327de66bfdf017085260d431.jpg&refer=http%3A%2F%2Fn.sinaimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653065365&t=3673f241805b163b8f00c803d4f38267",
+            "detail": "风靡全球的填字游戏"
+        },
+        {
+            "name": "棋盘消消乐",
+            "hotevent": false,
+            "src": "https://hex.frvr.com",
+
+        },
+        {
             "name": "围住小猫",
             "hotevent": false,
             "src": "https://ganlvtech.github.io/phaser-catch-the-cat//",
+            "image": "http://www.baidu.com/img/bdlogo.png"
         },
-        // {
-        //     "name": "Wordle",
-        //     "hotevent": true,
-        //     "src": "https://wordle-play.com/",
-        // },
         // {
         //     "name": "汉兜",
         //     "hotevent": true,

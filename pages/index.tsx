@@ -18,6 +18,7 @@ const MainPage = () => {
           name={data.name}
           image={data.image}
           src={`${prefix}${data.src}`}
+          detail={data.detail}
         />)
     }
     else {
@@ -35,7 +36,7 @@ const MainPage = () => {
 
   return (
     <div className="container">
-      <div style={{ backgroundColor: '#0F0F10', height: "100%" }}>
+      <div style={{ backgroundColor: '#F2F6F6', height: "100%" }}>
         <div style={{
           marginLeft: "26px",
           marginRight: "26px",
