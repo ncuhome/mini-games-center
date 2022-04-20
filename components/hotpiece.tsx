@@ -1,4 +1,4 @@
-import Avatar from "boring-avatars";
+// import Avatar from "boring-avatars";
 import Image from "next/image"
 import hot from '../public/hot.svg'
 
@@ -20,44 +20,62 @@ const HotPiece = (props: any) => {
             </div>)
     }
 
+    // onClick={() => window.location.href = src}
+    // { props.name }
+    // { renderHot() }
+    // { reg.test(srcModified) == true ? "入选近期热门飙升榜" : srcModified }
     return (
         <>
             <div style={{
                 display: 'flex',
-                alignItems: 'center',
-                padding: "12px",
-                marginTop: "12px",
-                marginBottom: "12px",
+                flexDirection: 'column',
+                // alignItems: 'center',
+                marginTop: "16px",
+                marginBottom: "24px",
+                paddingBottom: "8px",
                 borderRadius: "16px",
-                backgroundColor: "#EF6E6E"
+                height: "440px",
+                backgroundImage: "-webkit-linear-gradient(120.14deg, #6AAA64 -4.18%, #E5E5E5 103.11%)",
             }}
-                onClick={() => window.location.href = src}>
-                <div
-                    style={{ borderRadius: '100px', marginRight: '16px', marginTop: '6px' }}
+                onClick={() => window.location.href = src}
+            >
+                <div style={{
+                    display: 'flex',
+                    // alignItems: 'center',
+                    borderRadius: "16px 16px 0 0",
+                    height: "90%",
+                    width: "100%",
+                    backgroundSize: "contain",
+                    backgroundImage: `url(${props.image})`,
+                }}
                 >
-                    <Avatar
-                        size={40}
-                        name={(props.name)}
-                        variant="beam"
-                        colors={["#ADABFF", "#FFD234", "#F2F26F", "#FFF7BD", "#8DECC5"]}
-                    />
                 </div>
-
-                <div>
-                    <div style={{
-                        color: "white",
-                        fontSize: "15px",
-                        display: "flex",
-                    }}>
-                        {props.name}
-                        {renderHot()}
-                    </div>
-                    <div style={{
-                        color: "white",
-                        fontSize: "12px"
-                    }}>
-                        {reg.test(srcModified) == true ? "入选近期热门飙升榜" : srcModified}
-                    </div>
+                <div
+                    style={{
+                        display: 'flex',
+                        borderRadius: '100px',
+                        marginTop: "4px",
+                        color: "#ffffff",
+                        fontSize: "16px",
+                        fontWeight: "bold",
+                        justifyContent: "center",
+                    }}
+                >
+                    {renderHot()}
+                    {props.name}
+                </div>
+                <div
+                    style={{
+                        display: 'flex',
+                        borderRadius: '100px',
+                        marginTop: "4px",
+                        color: "#ffffff",
+                        fontSize: "14px",
+                        fontWeight: "400",
+                        justifyContent: "center",
+                    }}
+                >
+                    {props.detail}
                 </div>
             </div>
         </>
