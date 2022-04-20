@@ -12,27 +12,17 @@ const Footer = () => {
             color: "#919190",
             fontSize: "13px"
         }}>
-            <div style={{ margin: "8px" }}>
+            <div style={{ margin: "4px" }}>
                 <Button
-                    scale={0.45}
-                    style={{
-                        backgroundColor: " rgba(256, 256, 256, 0.12)",
-                        color: "#cccccc",
-                        border: "none",
-                    }}
+                    scale={0.6}
                     onClick={() => window.location.href = "https://www.wenjuan.com/s/UZBZJvEOdvM/#%E3%80%8A%E5%B0%8F%E6%B8%B8%E6%88%8F%E6%8E%A8%E8%8D%90%E3%80%8B"}>
                     向我们推荐小游戏
                 </Button>
             </div>
 
-            <div style={{ margin: "8px" }}>
+            <div style={{ margin: "4px" }}>
                 <Button
-                    scale={0.45}
-                    style={{
-                        backgroundColor: " rgba(256, 256, 256, 0.12)",
-                        color: "#cccccc",
-                        border: "none",
-                    }}
+                    scale={0.6}
                     onClick={() => Router.push("../statement")}>
                     版权与许可说明
                 </Button>
@@ -56,6 +46,7 @@ const Footer = () => {
             </div>
             <div
                 onClick={() => window.location.href = "https://team.ncuos.com/"}
+                style={{ color: "#000000" }}
             >
                 @ 2022 NCUHOME <br />
             </div>
