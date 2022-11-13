@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16]
+    steps:
+    - uses: actions/checkout@v2
+    - uses: pnpm/action-setup@v2.2.4
+      with:
+          version: latest
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'pnpm'
+
+    - name: Install dependencies
+      run: pnpm install
+
+    - name: Build
+      run: pnpm build
+
+    - name: Upload website to Aliyun OSS
+      uses: fangbinwei/aliyun-oss-website-action@v1
+      with:
+        folder: dist # 待上传的文件夹
+        accessKeyId: ${{ secrets.ACCESSKEY_ID }} ## 通过 secrets 注入 ak
+        accessKeySecret: ${{ secrets.ACCESSKEY_SECRET }}
+        bucket: minigames-center # 要上传到的 bucket, 若不存在会自动新建
+        endpoint: oss-cn-hangzhou.aliyuncs.com # 指定区域的 oss endpoint
+        incremental: true # 开启增量上传，只上传 md5 值变化、新增、删除 的文件
