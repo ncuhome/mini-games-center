@@ -22,12 +22,12 @@ jobs:
       run: yarn install
 
     - name: Build
-      run: yarn build
+      run: yarn build && yarn export
 
     - name: Upload website to Aliyun OSS
       uses: fangbinwei/aliyun-oss-website-action@v1
       with:
-        folder: build # 待上传的文件夹
+        folder: out # 待上传的文件夹
         accessKeyId: ${{ secrets.ACCESSKEY_ID }} ## 通过 secrets 注入 ak
         accessKeySecret: ${{ secrets.ACCESSKEY_SECRET }}
         bucket: minigames-center # 要上传到的 bucket, 若不存在会自动新建
